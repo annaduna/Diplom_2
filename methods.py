@@ -13,6 +13,11 @@ class UserMethods:
     def post_login_user(login_data):
         return requests.post(url.POST_LOGIN, json=login_data)
 
+    @staticmethod
+    @allure.step('Удаление пользователя.')
+    def delete_user(token):
+        return requests.delete(url.DELETE_USER, headers={"Authorization": f"{token}"})
+
 class OrderMethods:
     @staticmethod
     @allure.step('Создание нового заказа.')
@@ -23,5 +28,6 @@ class OrderMethods:
     @allure.step('Получение списка заказов.')
     def request_user_orders_list(token=''):
         return requests.get(url.GET_USER_ORDER_LIST, headers={"Authorization": f"{token}"})
+
 
 

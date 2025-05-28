@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ba509f-eac2-4d4c-b225-992e0dae3888" name="Changes" comment="далена папка .idea из репозитория и добавлена в .gitignore" />
+    <list default="true" id="c6ba509f-eac2-4d4c-b225-992e0dae3888" name="Changes" comment="далена папка .idea из репозитория и добавлена в .gitignore">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +71,10 @@
     &quot;Python tests.Python tests for test_user.TestUpdateUser.test_update_auth_user.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_user.TestUpdateUser.test_update_no_authorized_user.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_order.TestCreateOrder.test_create_new_order_no_authorization.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_user.TestCreateUser.test_create_two_same_users.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in test_order.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_user.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;develop__2&quot;,
@@ -79,8 +91,8 @@
       <recent name="C:\Users\Анна\PycharmProjects\Diplom2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_order.TestCreateOrder.test_create_new_order_invalid_ingredients">
-    <configuration name="Python tests for test_order.TestCreateOrder.test_create_new_order_invalid_ingredients" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_user.TestCreateUser.test_create_two_same_users">
+    <configuration name="pytest for test_order.TestCreateOrder.test_create_new_order_no_authorization" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +102,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestCreateOrder.test_create_new_order_invalid_ingredients&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_order.TestCreateOrder.test_create_new_order_no_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_order.TestCreateOrder.test_create_new_order_no_authorization&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestCreateOrder.test_create_order_auth_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_user.TestCreateUser.test_create_two_same_users" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,42 +119,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestCreateOrder.test_create_order_auth_user&quot;" />
+      <option name="_new_target" value="&quot;test_user.TestCreateUser.test_create_two_same_users&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_order.TestGetOrder.test_get_user_orders_with_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.TestGetOrder.test_get_user_orders_with_authorization&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_order.test_get_user_orders_with_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.test_get_user_orders_with_authorization&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in C:/Users/Анна/PycharmProjects/Diplom_2/tests/test_order.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="pytest in test_order.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,12 +136,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_order.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in C:/Users/Анна/PycharmProjects/Diplom_2/tests/test_user.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="pytest in test_user.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,6 +153,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_user.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -187,11 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_order.TestGetOrder.test_get_user_orders_with_authorization" />
-        <item itemvalue="Python tests.Python tests for test_order.TestCreateOrder.test_create_order_auth_user" />
-        <item itemvalue="Python tests.Python tests for test_order.TestCreateOrder.test_create_new_order_no_authorization" />
-        <item itemvalue="Python tests.Python tests for test_order.TestCreateOrder.test_create_new_order_invalid_ingredients" />
-        <item itemvalue="Python tests.Python tests for test_order.test_get_user_orders_with_authorization" />
+        <item itemvalue="Python tests.pytest for test_user.TestCreateUser.test_create_two_same_users" />
+        <item itemvalue="Python tests.pytest for test_order.TestCreateOrder.test_create_new_order_no_authorization" />
       </list>
     </recent_temporary>
   </component>
