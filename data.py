@@ -16,3 +16,6 @@ class Responses:
     CODE_401_LOGIN_USER = {'message': 'email or password are incorrect', 'success': False}
     CODE_401_UPDATE_USER_NO_AUTH = {'message': 'You should be authorised', 'success': False}
     CODE_401_GET_ORDERS_NO_AUTH = {'message': 'You should be authorised', 'success': False}
+
+class ErrorMessages:
+    INGREDIENT_IDS_MUST_BE_PROVIDED = "Ingredient ids must be provided"
